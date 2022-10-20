@@ -3,8 +3,8 @@ console.log("Getting a secret, then making a quote");
 const out = document.querySelector("div#quote");
     
 function test() {
-    console.log("__BEARER_TOKEN__");
-    return "__BEARER_TOKEN__";
+    console.log(__BEARER_TOKEN__);
+    return __BEARER_TOKEN__;
 };
 
 const token = test();
