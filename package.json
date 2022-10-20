@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "replace-test": "node script.js"
-  }
-}
