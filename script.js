@@ -1,6 +1,6 @@
 console.log("Getting a secret, then making a quote");
 
-const out = document.querySelector("div#quote");
+// const out = document.querySelector("div#quote");
     
 function test() {
     console.log("__BEARER_TOKEN__");
