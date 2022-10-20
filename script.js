@@ -1,8 +1,13 @@
 console.log("Getting a secret, then making a quote");
 
 const out = document.querySelector("div#quote");
+    
+function test() {
+    console.log("__BEARER_TOKEN__");
+    return "__BEARER_TOKEN__";
+};
 
-const token = __BEARER_TOKEN__;
+const token = test();
 console.log(token);
 
 const API_BASE_URL = "https://nf-api.onrender.com/";

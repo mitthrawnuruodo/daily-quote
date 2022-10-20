@@ -1,23 +1,5 @@
 {
-  "devDependencies": {
-    "dotenv": "^16.0.3"
-  },
-  "name": "daily-quote",
-  "version": "1.0.0",
-  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mitthrawnuruodo/daily-quote.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mitthrawnuruodo/daily-quote/issues"
-  },
-  "homepage": "https://github.com/mitthrawnuruodo/daily-quote#readme",
-  "description": ""
+    "replace-test": "node script.js"
+  }
 }
