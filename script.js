@@ -1,13 +1,10 @@
+require("dotenv/config");
+
 console.log("Getting a secret, then making a quote");
 
 // const out = document.querySelector("div#quote");
     
-function test() {
-    console.log(__BEARER_TOKEN__);
-    return __BEARER_TOKEN__;
-};
-
-const token = test();
+const token = `${process.env.MEANING_OF_LIFE}`;
 console.log(token);
 
 const API_BASE_URL = "https://nf-api.onrender.com/";
