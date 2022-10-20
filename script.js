@@ -20,6 +20,7 @@ const options = {
 };
 
 console.log(api, options);
+getStuff(api, options);
 
 async function getStuff(api, options) {
     const response = await fetch(api, options);
