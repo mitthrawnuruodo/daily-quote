@@ -21,8 +21,9 @@ const options = {
 
 console.log(api, options);
 
-
-const response = await fetch(api, options);
-console.log(response);
-const data = await response.json();
-console.log(data);
+async function getStuff(api, options) {
+    const response = await fetch(api, options);
+    console.log(response);
+    const data = await response.json();
+    console.log(data);    
+}
