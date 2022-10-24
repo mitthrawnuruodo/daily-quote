@@ -1,5 +1,3 @@
-//require("dotenv/config");
-
 console.log("Getting a secret, then making a quote");
 
 // const out = document.querySelector("div#quote");
@@ -19,9 +17,11 @@ const options = {
 console.log(api, options);
 getStuff(api, options);
 
+/*
 async function getStuff(api, options) {
     const response = await fetch(api, options);
     console.log(response);
     const data = await response.json();
     console.log(data);    
 }
+*/
