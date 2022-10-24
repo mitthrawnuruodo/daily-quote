@@ -4,7 +4,7 @@ console.log("Getting a secret, then making a quote");
 
 // const out = document.querySelector("div#quote");
     
-const token = `${process.env.MEANING_OF_LIFE}`;
+const token = `${MEANING_OF_LIFE}`;
 console.log(token);
 
 const API_BASE_URL = "https://nf-api.onrender.com/";
