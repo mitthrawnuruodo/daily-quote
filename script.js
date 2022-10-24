@@ -1,4 +1,4 @@
-require("dotenv/config");
+//require("dotenv/config");
 
 console.log("Getting a secret, then making a quote");
 
